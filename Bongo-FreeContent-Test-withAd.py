@@ -1,5 +1,3 @@
-from selenium.common.exceptions import TimeoutException
-
 from selenium import webdriver
 driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\webdriver\chromedriver.exe')
 driver.get('https://bongobd.com')
